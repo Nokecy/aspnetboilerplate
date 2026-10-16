@@ -132,3 +132,10 @@ src/.vs/config/applicationhost.config
 !SQLite.Interop.dll
 /tools
 nupkg/push-hikalkan.bat
+
+# Nuke Test Results
+output/test-results/*
+
+# Don't ignore the Dapper-Extensions Sql folder
+# This is needed for Dapper-Extensions to work properly
+!src/Abp.Dapper/Dapper-Extensions/Sql/
